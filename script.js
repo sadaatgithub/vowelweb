@@ -36,7 +36,7 @@ function carousel() {
 setInterval(() => {
   counter++
   carousel()
-}, 2000);
+}, 4000);
 
 burger.addEventListener('click',()=>{
     console.log('clicked')
